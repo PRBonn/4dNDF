@@ -22,3 +22,5 @@
   <h3 align="center"><a href="https://arxiv.org/pdf/2401.09101v1.pdf">Preprint</a> | Video</a></h3>
   <div align="center"></div>
 </p>
+
+![teaser](https://github.com/PRBonn/4dNDF/assets/8968747/42ad8727-8a2f-4600-bf3c-acca1c461dbd)
