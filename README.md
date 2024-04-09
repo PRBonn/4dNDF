@@ -27,7 +27,7 @@
 ![teaser](media/overview.jpg)
 | Demo |
 | :-: |
-<video width = "750" src="media/4dndf.mp4" controls></video> |
+![teaser](media/4dndf.gif) |
 
 <!-- TABLE OF CONTENTS -->
 
