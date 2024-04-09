@@ -25,8 +25,9 @@
 
 
 ![teaser](media/overview.jpg)
-
-<video width = "600" src="media/4dndf.mp4" controls></video>
+| Demo |
+| :-: |
+<video width = "750" src="media/4dndf.mp4" controls></video> |
 
 <!-- TABLE OF CONTENTS -->
 
