@@ -93,7 +93,7 @@ conda install -c conda-forge quaternion
 ### Clone the repository
 ```
 git clone https://github.com/PRBonn/4dNDF
-cd 4dndf
+cd 4dNDF
 ```
 
 ### Sanity test and Demo
