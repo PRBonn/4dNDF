@@ -79,7 +79,7 @@ The commands depend on your CUDA version. You may check the instructions [here](
 
 ### 3. Install PyTorch3D
 
-Follow the official instructions [here](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md) install PyTorch3D with conda.
+Follow the official instructions [here](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md) to install PyTorch3D with conda.
 
 ### 4. Install other dependencies
 
@@ -114,14 +114,14 @@ As reported in the paper, we evaluate our method in surface reconstruction and d
 
 ### Surface reconstruction
 
-We use [Co-fusion](https://github.com/martinruenz/co-fusion)'s car4 dataset and the Newer College dataset to evaluate the quality of our reconstruction. 
-The original Co-fusion dataset provides depth images rendered in Blender. We convert these depth images into point clouds and use 150 frames for our experiments. (We also provide the script to convert the Co-fusion's data into our format in `script/cofusion_data_converter.py`.) Run the following script to download the already converted data: 
+We use [Co-Fusion](https://github.com/martinruenz/co-fusion)'s car4 dataset and the Newer College dataset to evaluate the quality of our reconstruction. 
+The original Co-Fusion dataset provides depth images rendered in Blender. We convert these depth images into point clouds and use 150 frames for our experiments. (We also provide the script to convert the Co-Fusion's data into our format in `script/cofusion_data_converter.py`.) Run the following script to download the already converted data: 
 
 ```
 sh ./script/download_cofusion.bash
 ```
 
-And then run the following script, which runs our pipeline (i.e., `static_mapping.py`) and computes the metrics:
+Then run the following script, which runs our pipeline (i.e., `static_mapping.py`) and computes the metrics:
 ```
 sh ./script/run_cofusion.bash
 ```
@@ -151,7 +151,7 @@ sh /script/download_baseline.bash
 
 Then change the path of `est_ply ` in `eval/eval_cofusion.py` and `eval/eval_newercollege.py` and run them to check the numbers.
 
-### Dynamic objects segementation
+### Dynamic objects segmentation
 
 We use [KTH_DynamicMap_Benchmark](https://github.com/KTH-RPL/DynamicMap_Benchmark) to evaluate the result of our Dynamic objects segmentation.
 
