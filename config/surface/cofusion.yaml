@@ -1,0 +1,55 @@
+# 4D_Neural_SDF
+setting:
+  dataset: "cofusion"
+  data_path: "data/cofusion/ply_noise/"
+  pose_path: "data/cofusion/gt-cam-0.txt"
+  calib_path: " "
+  label_path: " "
+  output_folder: "output/cofusion"
+  device: "cuda"
+  begin_frame: 0
+  end_frame: -1
+  valid_radius: 200
+  step_frame: 2
+  random_seed: 42
+  
+neuralvoxel:
+  leaf_voxel_size: 0.02
+  voxel_level_num : 2
+  scale_up_factor : 1.5
+  feature_dim: 8
+  
+decoder:
+  mlp_level: 2
+  mlp_hidden_dim: 64
+  mlp_basis_num: 32
+
+sampler:
+  truncated_length: 0.05
+  truncated_sample_num: 3
+  occupied_length: 0.05
+  occupied_sample_num: 2
+  free_sample_num: 15
+  certain_free_radius: 15
+  down_sample: True
+  voxel_down_sample_m: 0.01
+
+loss:
+  ekinoal_max_step: 0.008
+  ekinoal_min_step: 0.002
+  ekional_lamda: 0.002
+  free_space_lamda: 0.25
+  certain_free_lamda: 0.2
+  
+mapping:
+  epochs: 20
+  batch_size: 16384
+  learning_rate: 0.001
+  
+output:
+   static_pointcloud: False
+   point_cloud_viewer: False
+   segmentation_threshold: 0.02
+   mesh_recon: True
+   mesh_dynamic: False
+   mesh_resolution: 0.005
