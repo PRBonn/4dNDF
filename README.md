@@ -5,7 +5,7 @@
     <a href="https://github.com/PRBonn/4dNDF"><img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" /></a>
     <a href="https://github.com/PRBonn/4dNDF"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
     <a href="https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/zhong2024cvpr.pdf"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
-    <a href="https://lbesson.mit-license.org/"><img src="https://github.com/PRBonn/4dNDF/blob/main/LICENSE" /></a>
+    <a href="https://github.com/PRBonn/4dNDF/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
   </p>
 
 
@@ -61,7 +61,7 @@ Building accurate maps is a key building block to enable reliable localization, 
 
 ## Installation
 
-We tested our code on Ubuntu 22.04.
+We tested our code on Ubuntu 22.04 with an NVIDIA RTX 5000.
 
 ### 1. Set up conda environment
 
