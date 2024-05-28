@@ -19,7 +19,7 @@
     <a href="https://www.ipb.uni-bonn.de/people/jens-behley/"><strong>Jens Behley</strong></a>
   </p>
   <p align="center"><a href="https://www.ipb.uni-bonn.de"><strong>University of Bonn</strong></a>
-  <h3 align="center"><a href="https://www.ipb.uni-bonn.de/pdfs/zhong2024cvpr.pdf">Paper</a> | Video</a></h3>
+  <h3 align="center"><a href="https://www.ipb.uni-bonn.de/pdfs/zhong2024cvpr.pdf">Paper </a>|</a><a  href="https://youtu.be/pRNKRcTkxjs"> Video</a></h3>
   <div align="center"></div>
 </p>
 
