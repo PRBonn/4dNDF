@@ -79,9 +79,7 @@ if __name__ == "__main__":
     sampled_points = torch.tensor(np.asarray(sampled_pcd.points), device='cuda').cpu().numpy()
 
     evaluator = eval_utils.MeshEvaluator(0.2)
-    evaluator._evaluate(sampled_points, gt_valid_points.cpu().numpy())
-
-    results = evaluator._evaluate(sampled_points, gt_points.cpu().numpy())
+    results = evaluator._evaluate(sampled_points, gt_valid_points.cpu().numpy())
 
     ## We report the accurracy and Champfer distance in cm:
     print(f"completeness: {100 * results['completeness']:.3f}")
