@@ -146,7 +146,7 @@ The reconstructed mesh will be stored in the `output/newer_college` folder. Note
 We also provide the meshes reconstructed by the baseline methods. You can download them by running:
 
 ```
-sh /script/download_baseline.bash
+sh ./script/download_baseline.bash
 ```
 
 Then change the path of `est_ply ` in `eval/eval_cofusion.py` and `eval/eval_newercollege.py` and run them to check the numbers.
